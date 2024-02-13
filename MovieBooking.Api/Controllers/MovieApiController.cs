@@ -4,7 +4,6 @@ using MovieBooking.Services.BookingServices;
 using MovieBooking.Services.MovieServices;
 using MovieBooking.Services.TimingsServices;
 using MovieBookingContracts;
-using System.Net.NetworkInformation;
 using System.Net;
 
 namespace MovieBooking.Api.Controllers

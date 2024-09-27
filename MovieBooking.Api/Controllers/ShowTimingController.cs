@@ -36,7 +36,7 @@ namespace MovieBooking.Api.Controllers
             {
                 return new APIResponse<string>
                 {
-                    Error = new Error { errorMessage = "Movie Should Have More Than 20 Seats nad less than 400" },
+                    Error = new Error { errorMessage = "Movie Should Have More Than 20 Seats and less than 400" },
                     Status = HttpStatusCode.NotFound
 
                 };
